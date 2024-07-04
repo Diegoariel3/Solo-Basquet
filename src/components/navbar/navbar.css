@@ -1,20 +1,23 @@
 .navbar-container {
-  background-color: #102c57;
+  background-color: #505295;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 10vh;
+  padding: 20px;
 }
 .logo {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
+  width: 300px;
+  height: 5em;
+  object-fit: contain;
 }
 .navbar-list {
-  list-style: none;
   display: flex;
-  color: orange;
-  gap: 20px;
+  gap: 30px;
+}
+.navbar-list a {
+  text-decoration: none;
+  color: #ffc7ed;
   font-weight: bold;
 }
