@@ -1,8 +1,12 @@
-import { IoCart } from "react-icons/io5";
+import { Badge } from "@mui/material";
+import { Link } from "react-router-dom";
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 export const CartWidget = () => {
   return (
-    <div>
-      <IoCart color="orange" size={30} />
-    </div>
+    <Link to="/cart">
+      <Badge badgeContent={0} color="primary" showZero={true}>
+        <ShoppingCartIcon color="white" />
+      </Badge>
+    </Link>
   );
 };
