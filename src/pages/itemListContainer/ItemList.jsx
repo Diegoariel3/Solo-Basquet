@@ -1,7 +1,6 @@
 import { ProductCard } from "../../components/productCard/ProductCard";
 
 const ItemList = ({ items }) => {
-  console.log(items);
   return (
     <div
       style={{
@@ -27,4 +26,5 @@ const ItemList = ({ items }) => {
     </div>
   );
 };
+
 export default ItemList;
